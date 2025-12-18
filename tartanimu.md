@@ -886,21 +886,21 @@ mathjax: true
                     </div>
                     <div class="item">
                         <video muted loop playsinline controls preload="metadata" poster="/img/tartanimu/dog_overview.png">
-                            <source src="/video/tartanimu/exp1_video_compare_dog.m4v" type="video/mp4">
+                            <source src="{{ "/video/tartanimu/exp1_video_compare_dog.m4v" | relative_url }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <p class="item-description">Quadruped (Foundation Model)</p>
                     </div>
                     <div class="item">
                         <video muted loop playsinline controls preload="metadata" poster="/img/tartanimu/drone_overview.png">
-                            <source src="/video/tartanimu/exp1_video_compare_drone.m4v" type="video/mp4">
+                            <source src="{{ "/video/tartanimu/exp1_video_compare_drone.m4v" | relative_url }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <p class="item-description">Drone (Foundation Model)</p>
                     </div>
                     <div class="item">
                         <video muted loop playsinline controls preload="metadata" poster="/img/tartanimu/human_overview.png">
-                            <source src="/video/tartanimu/exp1_video_compare_human.m4v" type="video/mp4">
+                            <source src="{{ "/video/tartanimu/exp1_video_compare_human.m4v" | relative_url }}" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <p class="item-description">Human (Foundation Model)</p>
